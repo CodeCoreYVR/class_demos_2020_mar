@@ -64,3 +64,26 @@ false && false; // false
 1 >= 1; // true
 1 <= 5; // true
 2 <= 1; // false
+
+// mathmatical operations (binary)
+1 + 2; // 3
+5 - 4; // 1
+5 * 5; // 25
+10 / 2; // 5
+20 % 3; // 2
+2 ** 3; // 8
+
+// uniary operations
+let i = 1;
+i++; // get the value of (i);
+++i; // increament (i) then get its value
+i--; // get the value of (i) then decreament it 
+--i; // decreament (i) then get its value
+
+i = i + 1; // i += 1
+i = i / 2; // i /= 2;
+// when expressions can be written in many different ways
+// that's called "syntax sugar"
+
+
+
