@@ -24,11 +24,16 @@
 //   console.log(i);
 // }
 
-let i = 0;
-while (i <= 100) {
+// let i = 0;
+// while (i <= 100) {
+//   console.log(i);
+//   if (i >= 50) {
+//     break; // this will terminate the while loop when i is greater than 50
+//   }
+//   i += 2;
+// }
+
+// Demo: multiples of three
+for (let i = 3; i <= 99; i += 3) {
   console.log(i);
-  if (i >= 50) {
-    break; // this will terminate the while loop when i is greater than 50
-  }
-  i += 2;
 }
